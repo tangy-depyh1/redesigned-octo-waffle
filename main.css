@@ -1,0 +1,43 @@
+h1 {
+    color:red;
+}
+.dq1 {
+    background-color:blue; 
+    width: 100px;
+    margin-bottom: 100px;
+    color:white;
+}
+    .fft {
+    width: 150px;
+
+}
+a {
+    color:blue;
+}
+    span {
+        color:red;
+    }
+    h2 {
+        color: white;
+        background:green;
+        padding: 30px;
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    .ser1 {
+        padding: 45px 45px;
+    }
+    .ggd {
+        padding-left: 100px;
+    }
+     
+
+.opo, .opo2, .opo1 {
+    border: 1px solid #000000;
+    font-size: 25px;
+}
+
+    .ser7 {
+        padding-left: 100px;
+    }
