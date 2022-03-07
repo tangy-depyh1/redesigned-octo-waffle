@@ -90,7 +90,7 @@ p {
 .mail {
 	background: #efecf4;
 	padding-top: 95px;
-	padding-bottom: 190px;
+	padding-bottom: 100px;
 }
 .form {
 	margin-top: 60px;
@@ -111,7 +111,6 @@ input {
 	height: 50px;
 	margin-left: 415px;
 	margin-top: 15px;
-
 }
 .footer {
 	padding: 33px 0;
@@ -124,21 +123,13 @@ input {
 .skills {
 	display: flex;
 }
-
 .skill-title, .skill-text {
 	display: flex;
 }
 .footer {
-	background: rgba(78,189,254,1);
-    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	background-color: #164d7a;
 	color: #fff;
-	padding-left: 787px;
+	padding-left: 537px;
 	font-size: 14px;
 }
 .skills {
@@ -146,14 +137,15 @@ input {
 	grid-template-columns: max-content max-content max-content;
 	align-items: center;
 	justify-content: space-around;
-   }
-   
+   }   
    .skills span {
 	 display: grid;
 	 justify-items: center;
    }
-.skill-text { text-align: center }
+.skill-text { 
+	text-align: center 
+}
 .skills span img {
 	margin-top: 70px;
 	height: auto;
-   }
+}
