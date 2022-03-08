@@ -1,0 +1,158 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.6em;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	padding-bottom: 140px;
+	color: #fff;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.offer {
+	margin-top: 176px;
+	width: 490px;
+	margin-bottom: 55px;
+}
+.title {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+.title span {
+	color: #fff;
+	font-size: 59px;
+}
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+	margin-top: 46px;
+	margin-bottom: 40px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #2e2a1b;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	font-size: 15px;
+}
+.btn:hover {
+	background: #d9860e;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+.skill-title {
+	font-size: 19px;
+	margin-top: 25px;
+}
+.mail {
+	background: #efecf4;
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+.form {
+	margin-top: 60px;
+	
+}
+input {
+	width: 343px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	height: 50px;
+	margin-left: 415px;
+}
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	width: 343px;
+	height: 50px;
+	margin-left: 415px;
+	margin-top: 15px;
+}
+.footer {
+	padding: 33px 0;
+	background: #201b2d;
+}
+.input1,.input2,.input3,.input4 {
+	border-radius: 2px;
+	margin-top: 15px;
+}
+.skills {
+	display: flex;
+}
+.skill-title, .skill-text {
+	display: flex;
+}
+.footer {
+	background-color: #164d7a;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.skills {
+	display: grid;
+	grid-template-columns: max-content max-content max-content;
+	align-items: center;
+	justify-content: space-around;
+   }   
+   .skills span {
+	 display: grid;
+	 justify-items: center;
+   }
+.skill-text { 
+	text-align: center 
+}
+.skills span img {
+	margin-top: 70px;
+	height: auto;
+}
+input{
+    display: block;
+    width: 340px;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 16px;
+}
